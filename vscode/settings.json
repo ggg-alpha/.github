@@ -1,0 +1,158 @@
+{
+    // Set header color
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#f84547",
+        "titleBar.activeForeground": "#fff",
+        "titleBar.inactiveBackground": "#113979",
+        "editorLineNumber.activeForeground": "#fff"
+    },
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": true,
+    "workbench.editor.enablePreview": false,
+    "editor.multiCursorModifier": "alt",
+    "files.trimTrailingWhitespace": true,
+    "editor.snippetSuggestions": "inline",
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.editor.showTabs": "none",
+    "editor.guides.indentation": true,
+    "workbench.tree.indent": 15,
+    // Editor linenumber
+    "editor.lineNumbers": "on",
+    // Silence the Noise
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "overview",
+    "editor.hover.delay": 120,
+    "editor.hover.enabled": true,
+    "editor.hover.above": false,
+    "editor.matchBrackets": "never",
+    "workbench.tips.enabled": false,
+    "editor.colorDecorators": false,
+    "git.decorations.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.occurrencesHighlight": "off",
+    "problems.decorations.enabled": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    // Typography
+    "editor.fontFamily": "Consolas, monospace",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 30,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontSize": 12,
+    "search.useIgnoreFiles": true,
+    /**
+    * Code
+    **/
+    "editor.linkedEditing": true,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": false,
+    "diffEditor.wordWrap": "on",
+    "notebook.output.wordWrap": true,
+    "editor.fontSize": 12,
+    "editor.minimap.maxColumn": 250,
+    "editor.minimap.enabled": false,
+    "editor.minimap.side": "right",
+    "editor.minimap.scale": 1,
+    "editor.minimap.size": "fit",
+    "explorer.confirmDelete": false,
+    "editor.accessibilitySupport": "off",
+    "chat.editor.wordWrap": "on",
+    "editor.wordWrap": "off",
+    "editor.fontWeight": "400",
+    "workbench.activityBar.location": "hidden",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.padding.top": 5,
+    "editor.cursorBlinking": "expand",
+    "editor.stickyScroll.enabled": false,
+    "editor.lineHeight": 20,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "variable.language",
+                    "entity.other.attribute-name.html",
+                    "entity.other.attribute-name",
+                    "keyword.control",
+                    "storage.type",
+                    "comment",
+                    "comment.block",
+                    "comment.line"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.panel.defaultLocation": "bottom",
+    "files.associations": {
+        ".env*": "dotenv"
+    },
+    "editor.renderWhitespace": "boundary",
+    "editor.renderControlCharacters": false,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "never",
+    "codeium.enableCodeLens": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "explorer.autoReveal": "focusNoScroll",
+    "explorer.openEditors.sortOrder": "alphabetical",
+    "symbols.hidesExplorerArrows": true,
+    "explorer.compactFolders": false,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.rename.enablePreview": false,
+    "diffEditor.codeLens": true,
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "cSpell.userWords": [],
+    "extensions.ignoreRecommendations": true,
+    "window.commandCenter": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.excludeGitIgnore": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        // JavaScript
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js, ${capture}.jsx, ${capture}.jsx.css",
+        "*.tsx": "${capture}.ts, ${capture}.tsx, ${capture}.tsx.css",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        // C#
+        "*.cs": "${capture}*.cs, ${capture}.*.cs",
+        "*.cshtml": "${capture}.cshtml, ${capture}.cshtml.cs, ${capture}.cshtml.css",
+        "appsettings.json": "appsettings.*.json"
+    },
+    "codeium.enableConfig": {
+        "*": true,
+        "aspnetcorerazor": true,
+        "ignore": true,
+        "plaintext": true,
+        "editorconfig": true
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "svelte.enable-ts-plugin": true,
+    "files.eol": "\n"
+}
