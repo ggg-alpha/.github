@@ -45,7 +45,7 @@
     "editor.gotoLocation.multipleImplementations": "goto",
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
     // Typography
-    "editor.fontFamily": "Consolas, monospace",
+    "editor.fontFamily": "'Source Han Code JP', Consolas, monospace",
     "editor.suggestFontSize": 16,
     "editor.suggestLineHeight": 30,
     "terminal.integrated.lineHeight": 1,
