@@ -70,7 +70,7 @@
     "chat.editor.wordWrap": "on",
     "editor.wordWrap": "off",
     "editor.fontWeight": "400",
-    "workbench.activityBar.location": "hidden",
+    "workbench.activityBar.location": "top",
     "editor.inlineSuggest.suppressSuggestions": true,
     "editor.padding.top": 5,
     "editor.cursorBlinking": "expand",
