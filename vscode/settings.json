@@ -153,6 +153,5 @@
         "editorconfig": true
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "svelte.enable-ts-plugin": true,
     "files.eol": "\n"
 }
